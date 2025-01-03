@@ -1,0 +1,167 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Ticket_Booking
+build_property.RootNamespace = Ticket_Booking
+build_property.ProjectDir = D:\Vaibhav_asp\Ticket_Booking\Ticket_Booking\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Vaibhav_asp\Ticket_Booking\Ticket_Booking
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Administration/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cQ3JlYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Administration/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Administration/EditUsersInRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cRWRpdFVzZXJzSW5Sb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Administration/ListRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRpb25cTGlzdFJvbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Book/BookBus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCb29rQnVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Book/BookTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCb29rVGlja2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Book/OldTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xPbGRUaWNrZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Book/ShowTicket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xTaG93VGlja2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Bus/BusInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXEJ1c0luZm9ybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Bus/CreateBus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXENyZWF0ZUJ1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Bus/DeleteBus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXERlbGV0ZUJ1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Bus/EditBus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXEVkaXRCdXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Bus/GetAllBus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXEdldEFsbEJ1cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Bus/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/City/CreateCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxDcmVhdGVDaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/City/DeleteCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxEZWxldGVDaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/City/EditCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxFZGl0Q2l0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/City/GetAllCity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxHZXRBbGxDaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Route/CreateRoute.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVcQ3JlYXRlUm91dGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Route/DeleteRoute.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVcRGVsZXRlUm91dGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Route/EditRoute.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVcRWRpdFJvdXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Route/GetAllRoute.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVcR2V0QWxsUm91dGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Route/ViewRoute.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVcVmlld1JvdXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Shared/ErrorPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Stop/AddStop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcFxBZGRTdG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Stop/CreateStop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcFxDcmVhdGVTdG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Stop/DeleteStop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcFxEZWxldGVTdG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Stop/EditStop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcFxFZGl0U3RvcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Stop/GetAllStop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcFxHZXRBbGxTdG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vaibhav_asp/Ticket_Booking/Ticket_Booking/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n6p05kkdlj

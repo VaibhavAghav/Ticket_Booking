@@ -1,0 +1,46 @@
+﻿@model Ticket_Booking.ViewModel.StopViewModel.DeleteStopViewModel ;
+
+@{
+    ViewData["Title"] = "Delete Stop";
+}
+
+
+<h4>Delete Stop</h4>
+<hr />
+
+
+<form enctype="multipart/form-data" asp-action="DeleteStop" method="post" class="col-md-6">
+
+    <input asp-for="Id" hidden />
+
+    <div class="form-group">
+        <label asp-for=" @Model.BusNumber" class="control-label"></label>
+        <input asp-for="@Model.BusNumber" class="form-control" disabled />
+        <span asp-validation-for="@Model.BusNumber" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label asp-for="City" class="control-label"></label>
+        <input asp-for="City" class="form-control" disabled />
+        <span asp-validation-for="City" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label asp-for="StopTime" class="control-label"></label>
+        <input asp-for="StopTime" class="form-control" type="datetime-local" disabled />
+        <span asp-validation-for="StopTime" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-controller="Stop" asp-action="GetAllStop" class="btn btn-secondary">Back</a>
+    </div>
+</form>
+
+
+
+
+

@@ -1,0 +1,17 @@
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\bin\Debug\net8.0\Ticket_DataAccess.deps.json
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\bin\Debug\net8.0\Ticket_DataAccess.runtimeconfig.json
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\bin\Debug\net8.0\Ticket_DataAccess.dll
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\bin\Debug\net8.0\Ticket_DataAccess.pdb
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\bin\Debug\net8.0\Ticket_Model.dll
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\bin\Debug\net8.0\Ticket_Model.pdb
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\obj\Debug\net8.0\Ticket_DataAccess.csproj.AssemblyReference.cache
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\obj\Debug\net8.0\Ticket_DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\obj\Debug\net8.0\Ticket_DataAccess.AssemblyInfoInputs.cache
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\obj\Debug\net8.0\Ticket_DataAccess.AssemblyInfo.cs
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\obj\Debug\net8.0\Ticket_DataAccess.csproj.CoreCompileInputs.cache
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\obj\Debug\net8.0\Ticket_D.748016A8.Up2Date
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\obj\Debug\net8.0\Ticket_DataAccess.dll
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\obj\Debug\net8.0\refint\Ticket_DataAccess.dll
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\obj\Debug\net8.0\Ticket_DataAccess.pdb
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\obj\Debug\net8.0\Ticket_DataAccess.genruntimeconfig.cache
+D:\Vaibhav_asp\Ticket_Booking\Ticket_DataAccess\obj\Debug\net8.0\ref\Ticket_DataAccess.dll

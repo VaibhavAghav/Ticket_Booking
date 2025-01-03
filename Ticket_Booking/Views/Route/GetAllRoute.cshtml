@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Ticket_Booking.ViewModel.RouteViewModel.AllRouteViewModel>
+
+@{
+    ViewData["Title"] = "GetAllRoute";
+}
+
+<h2> All Route</h2>
+<hr />
+
+<div class="container p-4">
+    <div class="row p-3">
+        <div class="col-6">
+            <h2 class="text-primary">List of Routes</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a class="btn btn-primary" asp-action="CreateRoute" asp-controller="Route">Create new Route</a>
+        </div>
+    </div>
+    <div class="row p-3">
+        <form asp-action="GetAllRoute" method="get" class="col-12">
+            <div class="row">
+                <div class="col-5">
+                    <select name="fromCityId" class="form-control">
+                        <option value="">Select From City</option>
+                        @foreach (var city in ViewBag.Cities)
+                        {
+                            <option value="@city.Value">@city.Text</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-5">
+                    <select name="toCityId" class="form-control">
+                        <option value="">Select To City</option>
+                        @foreach (var city in ViewBag.Cities)
+                        {
+                            <option value="@city.Value">@city.Text</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-2">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<table id="myTable" class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Bus Number</th>
+            <th>From City</th>
+            <th>To City</th>
+            <th>Start Time</th>
+            <th>Reached Time</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td>@i.Id</td>
+                <td>@i.BusNumber</td>
+                <td>@i.StartCity</td>
+                <td>@i.EndCity</td>
+                <td>@i.StartTime</td>
+                <td>@i.ReachedTime</td>
+                <td>
+                    <a asp-controller="Route" asp-action="EditRoute" asp-route-id="@i.Id" class="btn btn-primary m-1">Edit</a>
+                    <a asp-controller="Stop" asp-action="AddStop" asp-route-id="@i.Id" class="btn btn-secondary m-1">Add Stop</a>
+                    <a asp-controller="Route" asp-action="ViewRoute" asp-route-id="@i.Id" class="btn btn-primary m-1">View</a>
+                    <a asp-controller="Route" asp-action="DeleteRoute" asp-route-id="@i.Id" class="btn btn-danger m-1">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

@@ -1,0 +1,28 @@
+﻿@model Ticket_Booking.ViewModel.BusViewModel.CreateBusViewModel
+
+@{
+    ViewData["Title"] = "CreateBus";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="CreateBus" enctype="multipart/form-data">
+    <div class="col-md-6">
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="row mb-3">  
+            <label asp-for="BusNumber" class="col-sm-8 col-form-label"></label>
+            <input asp-for="BusNumber" class="form-control" />
+            <span asp-validation-for="BusNumber" class="text-danger"></span>
+        </div>
+
+        <div class="row mb-3">
+            <label asp-for="SeatCapacity" class="col-sm-8 col-form-label"></label>
+            <input asp-for="SeatCapacity" class="form-control" />
+            <span asp-validation-for="SeatCapacity" class="text-danger"></span>
+        </div>
+
+        <br />
+        <button class="btn btn-primary" type="submit">Create</button>
+        <a asp-controller="Bus" asp-action="GetAllBus" class="btn btn-secondary">Back</a>
+    </div>
+</form>

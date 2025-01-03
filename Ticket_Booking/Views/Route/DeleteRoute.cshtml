@@ -1,0 +1,64 @@
+﻿@model Ticket_Booking.ViewModel.RouteViewModel.DeleteRouteViewModel
+
+@{
+    ViewData["Title"] = "Delete Route";
+}
+
+<h2>Delete Route</h2>
+<hr />
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">Start Time:</dt>
+        <dd class="col-sm-9">@Model.StartTime</dd>
+
+        <dt class="col-sm-3">Reached Time:</dt>
+        <dd class="col-sm-9">@Model.ReachedTime</dd>
+
+        <dt class="col-sm-3">Start City:</dt>
+        <dd class="col-sm-9">@Model.City.FirstOrDefault(c => c.Value == Model.StartCityId.ToString())?.Text</dd>
+
+        <dt class="col-sm-3">Destination City:</dt>
+        <dd class="col-sm-9">@Model.City.FirstOrDefault(c => c.Value == Model.DestinationCityId.ToString())?.Text</dd>
+
+        <dt class="col-sm-3">Bus Number:</dt>
+        <dd class="col-sm-9">@Model.Buses.FirstOrDefault(b => b.Value == Model.BusId.ToString())?.Text</dd>
+    </dl>
+</div>
+
+<hr />
+
+<h3>Stops</h3>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Stop City</th>
+            <th>Stop Time</th>
+            <th>Delete Stop</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var stop in Model.Stops)
+        {
+            <tr>
+                <td>@stop.CityName</td>
+                <td>@stop.StopTime</td>
+                <td><a asp-action="DeleteStop" asp-controller="Stop" asp-route-id="@stop.Id" class="btn btn-danger">DeleteStop</a> </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+
+<h3>Confirm Deletion</h3>
+
+<p>Are you sure you want to delete this route and all associated stops?</p>
+
+<form asp-action="DeleteRoute" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="GetAllRoute" class="btn btn-secondary">Cancel</a>
+</form>
+
+

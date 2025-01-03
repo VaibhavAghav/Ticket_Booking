@@ -1,0 +1,42 @@
+﻿@model Ticket_Booking.ViewModel.CityViewModel.DeleteCityViewModel ;
+
+@{
+    ViewData["Title"] = "DeleteCity";
+}
+
+
+<h4>Delete City</h4>
+<hr />
+
+<form id="deleteForm" enctype="multipart/form-data" asp-action="DeleteCity" method="post" class="mt-3">
+    <input hidden asp-for="Id" />
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <h5 class="text-danger">@ViewBag.ErrorMessage </h5>
+        <br />
+    }
+    else
+    {
+        <h5 class="text-danger">Do you really want do delete city</h5>
+    }
+
+    <div class="form-group row">
+        <label asp-for="CityName" class="col-sm-2 col-form-label"> </label>
+        <div class="col-sm-4">
+            <input asp-for="CityName" class="form-control" disabled />
+            <span asp-validation-for="CityName"> </span>
+        </div>
+    </div>
+    <br />
+
+
+    <div>
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-controller="City" asp-action="GetAllCity" class="btn btn-secondary">Back</a>
+    </div>
+
+
+</form>
+
+

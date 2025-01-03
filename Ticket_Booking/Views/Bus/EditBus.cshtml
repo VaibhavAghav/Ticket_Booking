@@ -1,0 +1,41 @@
+﻿@model Ticket_Booking.ViewModel.BusViewModel.EditBusViewModel ;
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+<h4>Edit Bus</h4>
+<hr />
+
+<form enctype="multipart/form-data" asp-controller="Bus" asp-action="EditBus" method="post" class="mt-3">
+    <input hidden asp-for="Id" />
+
+    <div class="form-group row">
+        <label asp-for="BusNumber" class="col-sm-2 col-form-label">
+            Bus Number <span class="text-danger">*</span>
+        </label>
+        <div class="col-sm-4">
+            <input asp-for="BusNumber" class="form-control" />
+            <span asp-validation-for="BusNumber" class="text-danger"></span>
+        </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <label asp-for="SeatCapacity" class="col-sm-2 col-form-label">
+            Seat Capacity <span class="text-danger">*</span>
+        </label>
+        <div class="col-sm-4">
+            <input asp-for="SeatCapacity" class="form-control" />
+            <span asp-validation-for="SeatCapacity" class="text-danger"></span>
+        </div>
+    </div>
+    <br />
+
+    <div>
+        <button class="btn btn-primary" type="submit">Update</button>
+        <a asp-controller="Bus" asp-action="GetAllBus" class="btn btn-secondary">Back</a>
+    </div>
+</form>
+
+
+

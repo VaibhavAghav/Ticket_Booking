@@ -1,0 +1,97 @@
+﻿@model Ticket_Booking.ViewModel.StopViewModel.AddStopViewModel
+
+@{
+    ViewData["Title"] = "Create Stop";
+}
+
+<h4>Create Stop</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form enctype="multipart/form-data" asp-action="AddStop" method="post">
+            <input asp-for="Id" hidden />
+
+            <div class="form-group">
+                <label asp-for="BusNumber" class="control-label"></label>
+                <input asp-for="BusNumber" class="form-control" disabled />
+                <input asp-for="BusNumber" hidden />
+                <span asp-validation-for="BusNumber" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StartCity" class="control-label"></label>
+                <input asp-for="StartCity" class="form-control" disabled />
+                <input asp-for="StartCity" hidden />
+                <span asp-validation-for="StartCity" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StartTime" class="control-label"></label>
+                <input asp-for="StartTime" class="form-control" disabled />
+                <input asp-for="StartTime" hidden />
+                <span asp-validation-for="StartTime" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DestinationCity" class="control-label"></label>
+                <input asp-for="DestinationCity" class="form-control" disabled />
+                <input asp-for="DestinationCity" hidden />
+                <span asp-validation-for="DestinationCity" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ReachedTime" class="control-label"></label>
+                <input asp-for="ReachedTime" class="form-control" disabled />
+                <input asp-for="ReachedTime" hidden />
+                <span asp-validation-for="ReachedTime" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StopCity" class="control-label"></label>
+                <select asp-for="StopCity" class="form-control" asp-items="Model.City">
+                    <option value="">Select Stop City</option>
+                </select>
+                <span asp-validation-for="StopCity" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <label asp-for="StopTime" class="control-label"></label>
+                <input asp-for="StopTime" class="form-control" type="datetime-local" />
+                <span asp-validation-for="StopTime" class="text-danger"></span>
+            </div>
+            <br />
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a asp-controller="Route" asp-action="GetAllRoute" class="btn btn-secondary">Back</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-6">
+        <h4>Existing Stops</h4>
+        <hr />
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Stop City</th>
+                    <th>Stop Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var stop in Model.Stops)
+                {
+                    <tr>
+                        <td>@stop.CityName</td>
+                        <td>@stop.StopTime</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,48 @@
+﻿@model List<Ticket_Booking.ViewModel.BookViewModel.GetAllTicketViewModel>
+
+@{
+    ViewData["Title"] = "Show Ticket";
+}
+
+
+<div class="container">
+
+    <h2>Booked Ticket</h2>
+    <hr />
+    <br />
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Passenger Name</th>
+                <th>Seats</th>
+                <th>Bus Number</th>
+                <th>Pick City</th>
+                <th>Drop City</th>
+                <th>Start Time</th>
+                <th>Reached Time</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ticket in Model)
+            {
+                <tr>
+                    <td>@ticket.Name</td>
+                    <td>@ticket.Seats</td>
+                    <td>@ticket.BusId</td>
+                    <td>@ticket.StartCity</td>
+                    <td>@ticket.DestinationCity</td>
+                    <td>@ticket.StartTime.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>@ticket.ReachedTime.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                    <td>
+                        <form method="post" asp-controller="Book" asp-action="DeleteTicket" asp-route-id="@ticket.Id">
+                            <button type="submit" class="btn btn-danger">Cancel</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,52 @@
+﻿@using Ticket_Model;
+@model IEnumerable<City> ;
+
+@{
+    ViewData["Title"] = "All City";
+}
+
+<h2>All Cities</h2>
+<hr />
+
+<div class="container p-4">
+    <div class="row p-3">
+        <div class="col-6">
+            <h2 class="text-primary">List of City</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a class="btn btn-primary" asp-action="CreateCity" asp-controller="City">Create new City</a>
+        </div>
+    </div>
+</div>
+
+<table id="my Table" class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>City</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    @foreach (var i in Model)
+    {
+        <tr>
+            <td>
+                @i.Id
+            </td>
+            <td>
+                @i.CityName
+            </td>
+            <td>
+                <a asp-controller="City" asp-action="EditCity" asp-route-id="@i.Id" class="btn btn-primary m-1">Edit</a>
+                <a asp-controller="City" asp-action="Deletecity" asp-route-id="@i.Id" class="btn btn-danger m-1">Delete</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+
+
+
+

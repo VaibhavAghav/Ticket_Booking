@@ -1,0 +1,42 @@
+﻿ @model Ticket_Booking.ViewModel.StopViewModel.CreateStopViewModel
+
+@{
+    ViewData["Title"] = "Edit Route";
+}
+
+<h4>Edit Route</h4>
+<hr />
+
+<form enctype="multipart/form-data" asp-action="EditStop" method="post" class="col-md-6">
+    <input asp-for="Id" type="hidden" />
+
+    <div class="form-group">
+        <label asp-for="BusRouteId" class="control-label"></label>
+        <select asp-for="BusRouteId" class="form-control" asp-items="Model.Buses">
+        </select>
+        <span asp-validation-for="BusRouteId" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label asp-for="Addcity" class="control-label"></label>
+        <select asp-for="Addcity" class="form-control" asp-items="Model.City">
+        </select>
+        <span asp-validation-for="Addcity" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label asp-for="StopTime" class="control-label"></label>
+        <input asp-for="StopTime" class="form-control" type="datetime-local" />
+        <span asp-validation-for="StopTime" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+        <a asp-controller="Stop" asp-action="GetAllStop" class="btn btn-secondary">Back</a>
+    </div>
+</form>
+
+

@@ -1,0 +1,101 @@
+﻿@model Ticket_Booking.ViewModel.RouteViewModel.CreateRouteViewModel
+
+@{
+    ViewData["Title"] = "Create Route";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Create Route</h2>
+            <hr />
+
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <div class="alert alert-danger" role="alert">
+                    @ViewBag.ErrorMessage
+                </div>
+            }
+
+            <form asp-action="CreateRoute" method="post">
+                <div class="form-group">
+                    <label asp-for="BusId" class="control-label"></label>
+                    <select asp-for="BusId" class="form-control" asp-items="Model.Buses">
+                        <option value="">Select Bus</option>
+                    </select>
+                    <span asp-validation-for="BusId" class="text-danger"></span>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <label asp-for="StartCityId" class="control-label"></label>
+                    <select asp-for="StartCityId" class="form-control" asp-items="Model.City">
+                        <option value="">Select Start City</option>
+                    </select>
+                    <span asp-validation-for="StartCityId" class="text-danger"></span>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <label asp-for="DestinationCityId" class="control-label"></label>
+                    <select asp-for="DestinationCityId" class="form-control" asp-items="Model.City">
+                        <option value="">Select Destination City</option>
+                    </select>
+                    <span asp-validation-for="DestinationCityId" class="text-danger"></span>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <label asp-for="StartTime" class="control-label"></label>
+                    <input asp-for="StartTime" class="form-control" type="datetime-local" />
+                    <span asp-validation-for="StartTime" class="text-danger"></span>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <label asp-for="ReachedTime" class="control-label"></label>
+                    <input asp-for="ReachedTime" class="form-control" type="datetime-local" />
+                    <span asp-validation-for="ReachedTime" class="text-danger"></span>
+                </div>
+                <br />
+
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                    <a asp-controller="Route" asp-action="GetAllRoute" class="btn btn-secondary">Back</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <div>
+                @if (ViewBag.Dbbuses != null && ViewBag.Dbbuses.Count > 0)
+                {
+                    <h4>Existing Bus Routes for Selected Bus:</h4>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Start City</th>
+                                <th>Destination City</th>
+                                <th>Start Time</th>
+                                <th>Reached Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var dbbus in ViewBag.Dbbuses)
+                            {
+                                <tr>
+                                    <td>@dbbus.StartCity.CityName</td>
+                                    <td>@dbbus.DestinationCity.CityName</td>
+                                    <td>@dbbus.StartTime.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                                    <td>@dbbus.ReachedTime.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,27 @@
+﻿@model Ticket_Booking.ViewModel.CityViewModel.CreateCityViewModel ;
+
+@{
+    ViewData["Title"] = "AddCity";
+}
+
+<h4>AddCity</h4>
+<hr />
+
+<form method="post" asp-action="CreateCity" enctype="multipart/form-data">
+    <div class="col-md-6">
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="row mb-3">
+            <label asp-for="CityName" class="col-sm-2 col-form-label">
+                City <span class="text-danger">*</span>
+            </label>
+            <input asp-for="CityName" class="form-control" />
+            <span asp-validation-for="CityName" class="text-danger"></span>
+        </div>
+
+        <br />
+        <button class="btn btn-primary" type="submit">Save</button>
+        <a asp-controller="City" asp-action="GetAllCity" class="btn btn-secondary">Back</a>
+    </div>
+</form>
+

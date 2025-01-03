@@ -1,0 +1,431 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Vaibhav_asp\\Ticket_Booking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_dataaccess\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|solutionrelative:ticket_dataaccess\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\controllers\\buscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\controllers\\buscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|solutionrelative:ticket_dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\controllers\\administrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\controllers\\administrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_dataaccess\\ibusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|solutionrelative:ticket_dataaccess\\ibusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_dataaccess\\busrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|solutionrelative:ticket_dataaccess\\busrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA631C34-43D1-4F3F-BEC5-54705E726642}|Ticket_Model\\Ticket_Model.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_model\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA631C34-43D1-4F3F-BEC5-54705E726642}|Ticket_Model\\Ticket_Model.csproj|solutionrelative:ticket_model\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_dataaccess\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|solutionrelative:ticket_dataaccess\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA631C34-43D1-4F3F-BEC5-54705E726642}|Ticket_Model\\Ticket_Model.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_model\\busdaily.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA631C34-43D1-4F3F-BEC5-54705E726642}|Ticket_Model\\Ticket_Model.csproj|solutionrelative:ticket_model\\busdaily.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA631C34-43D1-4F3F-BEC5-54705E726642}|Ticket_Model\\Ticket_Model.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA631C34-43D1-4F3F-BEC5-54705E726642}|Ticket_Model\\Ticket_Model.csproj|solutionrelative:ticket_model\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_dataaccess\\migrations\\20240716043214_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|solutionrelative:ticket_dataaccess\\migrations\\20240716043214_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_dataaccess\\ticket_dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|solutionrelative:ticket_dataaccess\\ticket_dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\views\\book\\bookbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\views\\book\\bookbus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\viewmodel\\accountviewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\viewmodel\\accountviewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\viewmodel\\accountviewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\viewmodel\\accountviewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_booking\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B73923A-E855-4092-8FFC-7D8881465177}|Ticket_Booking\\Ticket_Booking.csproj|solutionrelative:ticket_booking\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_dataaccess\\sqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|solutionrelative:ticket_dataaccess\\sqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|d:\\vaibhav_asp\\ticket_booking\\ticket_dataaccess\\stoprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{975C28AB-87D2-4B7E-B82F-E22AC0CEAB8B}|Ticket_DataAccess\\Ticket_DataAccess.csproj|solutionrelative:ticket_dataaccess\\stoprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Program.cs",
+              "RelativeDocumentMoniker": "Ticket_Booking\\Program.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Program.cs",
+              "RelativeToolTip": "Ticket_Booking\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T10:10:36.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Ticket_Booking\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Ticket_Booking\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T13:23:21.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BusController.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Controllers\\BusController.cs",
+              "RelativeDocumentMoniker": "Ticket_Booking\\Controllers\\BusController.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Controllers\\BusController.cs",
+              "RelativeToolTip": "Ticket_Booking\\Controllers\\BusController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:22:55.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBusRepository.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\IBusRepository.cs",
+              "RelativeDocumentMoniker": "Ticket_DataAccess\\IBusRepository.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\IBusRepository.cs",
+              "RelativeToolTip": "Ticket_DataAccess\\IBusRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:20:23.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Bus.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Model\\Bus.cs",
+              "RelativeDocumentMoniker": "Ticket_Model\\Bus.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Model\\Bus.cs",
+              "RelativeToolTip": "Ticket_Model\\Bus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:19:04.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BusRepository.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\BusRepository.cs",
+              "RelativeDocumentMoniker": "Ticket_DataAccess\\BusRepository.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\BusRepository.cs",
+              "RelativeToolTip": "Ticket_DataAccess\\BusRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:19:24.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CityRepository.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\CityRepository.cs",
+              "RelativeDocumentMoniker": "Ticket_DataAccess\\CityRepository.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\CityRepository.cs",
+              "RelativeToolTip": "Ticket_DataAccess\\CityRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:19:19.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Ticket_DataAccess\\AppDbContext.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\AppDbContext.cs",
+              "RelativeToolTip": "Ticket_DataAccess\\AppDbContext.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAwwCIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:49:10.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdministrationController.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Controllers\\AdministrationController.cs",
+              "RelativeDocumentMoniker": "Ticket_Booking\\Controllers\\AdministrationController.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Controllers\\AdministrationController.cs",
+              "RelativeToolTip": "Ticket_Booking\\Controllers\\AdministrationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T09:59:37.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "Ticket_DataAccess\\BookingRepository.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\BookingRepository.cs",
+              "RelativeToolTip": "Ticket_DataAccess\\BookingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:19:15.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BusDaily.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Model\\BusDaily.cs",
+              "RelativeDocumentMoniker": "Ticket_Model\\BusDaily.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Model\\BusDaily.cs",
+              "RelativeToolTip": "Ticket_Model\\BusDaily.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:19:08.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "City.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Model\\City.cs",
+              "RelativeDocumentMoniker": "Ticket_Model\\City.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Model\\City.cs",
+              "RelativeToolTip": "Ticket_Model\\City.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:18:02.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240716043214_initialmigration.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\Migrations\\20240716043214_initialmigration.cs",
+              "RelativeDocumentMoniker": "Ticket_DataAccess\\Migrations\\20240716043214_initialmigration.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\Migrations\\20240716043214_initialmigration.cs",
+              "RelativeToolTip": "Ticket_DataAccess\\Migrations\\20240716043214_initialmigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:16:36.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Ticket_DataAccess.csproj",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\Ticket_DataAccess.csproj",
+              "RelativeDocumentMoniker": "Ticket_DataAccess\\Ticket_DataAccess.csproj",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\Ticket_DataAccess.csproj",
+              "RelativeToolTip": "Ticket_DataAccess\\Ticket_DataAccess.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-14T13:16:20.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookBus.cshtml",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Views\\Book\\BookBus.cshtml",
+              "RelativeDocumentMoniker": "Ticket_Booking\\Views\\Book\\BookBus.cshtml",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Views\\Book\\BookBus.cshtml",
+              "RelativeToolTip": "Ticket_Booking\\Views\\Book\\BookBus.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAABYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T13:13:38.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Ticket_Booking\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Ticket_Booking\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T13:07:58.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Ticket_Booking\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Ticket_Booking\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T13:07:54.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Ticket_Booking\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Ticket_Booking\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:28:50.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\ViewModel\\AccountViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Ticket_Booking\\ViewModel\\AccountViewModel\\LoginViewModel.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\ViewModel\\AccountViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "Ticket_Booking\\ViewModel\\AccountViewModel\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:07:03.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Ticket_Booking\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Ticket_Booking\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:06:53.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StopRepository.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\StopRepository.cs",
+              "RelativeDocumentMoniker": "Ticket_DataAccess\\StopRepository.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\StopRepository.cs",
+              "RelativeToolTip": "Ticket_DataAccess\\StopRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:40:00.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Ticket_Booking\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Ticket_Booking\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-25T14:20:46.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SQLRepository.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\SQLRepository.cs",
+              "RelativeDocumentMoniker": "Ticket_DataAccess\\SQLRepository.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_DataAccess\\SQLRepository.cs",
+              "RelativeToolTip": "Ticket_DataAccess\\SQLRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:40:04.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\ViewModel\\AccountViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Ticket_Booking\\ViewModel\\AccountViewModel\\RegisterViewModel.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\ViewModel\\AccountViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "Ticket_Booking\\ViewModel\\AccountViewModel\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T13:47:52.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Ticket_Booking\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\Vaibhav_asp\\Ticket_Booking\\Ticket_Booking\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Ticket_Booking\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAgwFMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:26:37.082Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

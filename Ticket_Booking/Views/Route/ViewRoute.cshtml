@@ -1,0 +1,49 @@
+﻿@model Ticket_Booking.ViewModel.RouteViewModel.ShowRouteViewModel
+
+@{
+    ViewData["Title"] = "View Route";
+}
+
+<h2>Route Information</h2>
+<hr />
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">Bus Number:</dt>
+        <dd class="col-sm-9">@Model.BusNumber</dd>
+
+        <dt class="col-sm-3">From City:</dt>
+        <dd class="col-sm-9">@Model.StartCity</dd>
+
+        <dt class="col-sm-3">To City:</dt>
+        <dd class="col-sm-9">@Model.DestinationCity</dd>
+
+        <dt class="col-sm-3">Start Time:</dt>
+        <dd class="col-sm-9">@Model.StartTime.ToString("dd/MM/yyyy HH:mm")</dd>
+
+        <dt class="col-sm-3">Reached Time:</dt>
+        <dd class="col-sm-9">@Model.ReachedTime.ToString("dd/MM/yyyy HH:mm")</dd>
+    </dl>
+</div>
+
+<hr />
+<h2>Stops</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Stop City</th>
+            <th>Stop Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var stop in Model.Stops)
+        {
+            <tr>
+                <td>@stop.StopCity</td>
+                <td>@stop.StopTime.ToString("dd/MM/yyyy HH:mm")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Route" asp-action="GetAllRoute" class="btn btn-primary">Back to All Routes</a>
